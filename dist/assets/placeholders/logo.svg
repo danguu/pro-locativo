@@ -1,0 +1,8 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 120' role='img' aria-labelledby='title desc'>
+  <title id='title'>Logo provisional</title>
+  <desc id='desc'>Recurso temporal para el logotipo de Pro Locativo</desc>
+  <rect width='320' height='120' rx='20' ry='20' fill='#1F3A5F'/>
+  <rect x='12' y='12' width='296' height='96' rx='16' ry='16' fill='none' stroke='rgba(255,255,255,0.45)' stroke-width='6' stroke-dasharray='18 14'/>
+  <text x='50%' y='55%' text-anchor='middle' font-family='Poppins, sans-serif' font-size='36' fill='white'>Pro</text>
+  <text x='50%' y='80%' text-anchor='middle' font-family='Poppins, sans-serif' font-size='18' fill='rgba(255,255,255,0.8)'>Logo temporal</text>
+</svg>
