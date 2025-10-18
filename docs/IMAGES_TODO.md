@@ -1,0 +1,12 @@
+# Imágenes pendientes
+
+Completa las rutas con los recursos definitivos antes de la publicación. Todas las rutas son relativas a la raíz del sitio.
+
+| Ruta esperada | Tamaño sugerido | Uso / Página | Notas de composición | Ejemplo de `srcset` |
+| --- | --- | --- | --- | --- |
+| `/assets/img/proyectos/torre-andina.jpg` | 1200x900 (1x), 2400x1800 (2x) | Card proyecto "Torre Andina" en Inicio y Proyectos | Render arquitectónico frontal, iluminación diurna | `<img src="/assets/img/proyectos/torre-andina.jpg" srcset="/assets/img/proyectos/torre-andina.jpg 1x, /assets/img/proyectos/torre-andina@2x.jpg 2x" alt="Render del proyecto Torre Andina" loading="lazy">` |
+| `/assets/img/proyectos/campus-innovacion.jpg` | 1200x900 (1x), 2400x1800 (2x) | Card proyecto "Campus Innovación" | Vista aérea del parque empresarial con zonas verdes | `<img src="/assets/img/proyectos/campus-innovacion.jpg" srcset="/assets/img/proyectos/campus-innovacion.jpg 1x, /assets/img/proyectos/campus-innovacion@2x.jpg 2x" alt="Render del Campus Innovación" loading="lazy">` |
+| `/assets/img/proyectos/plaza-caribe.jpg` | 1200x900 (1x), 2400x1800 (2x) | Card proyecto "Plaza Caribe" | Bodegas con flota logística y señalización | `<img src="/assets/img/proyectos/plaza-caribe.jpg" srcset="/assets/img/proyectos/plaza-caribe.jpg 1x, /assets/img/proyectos/plaza-caribe@2x.jpg 2x" alt="Render de Plaza Caribe Logistics" loading="lazy">` |
+| `/assets/img/proyectos/puerta-del-pacifico.jpg` | 1200x900 (1x), 2400x1800 (2x) | Card proyecto "Puerta del Pacífico" | Complejo mixto con plaza pública y zonas comerciales | `<img src="/assets/img/proyectos/puerta-del-pacifico.jpg" srcset="/assets/img/proyectos/puerta-del-pacifico.jpg 1x, /assets/img/proyectos/puerta-del-pacifico@2x.jpg 2x" alt="Render de Puerta del Pacífico" loading="lazy">` |
+| `/assets/img/proyectos/sky-hub.jpg` | 1200x900 (1x), 2400x1800 (2x) | Card proyecto "Sky Hub" | Torre corporativa con skyline de fondo | `<img src="/assets/img/proyectos/sky-hub.jpg" srcset="/assets/img/proyectos/sky-hub.jpg 1x, /assets/img/proyectos/sky-hub@2x.jpg 2x" alt="Render del Sky Hub Corporativo" loading="lazy">` |
+| `/assets/img/proyectos/altos-del-rio.jpg` | 1200x900 (1x), 2400x1800 (2x) | Card proyecto "Altos del Río" | Complejo mixto nocturno con iluminación cálida | `<img src="/assets/img/proyectos/altos-del-rio.jpg" srcset="/assets/img/proyectos/altos-del-rio.jpg 1x, /assets/img/proyectos/altos-del-rio@2x.jpg 2x" alt="Render de Altos del Río" loading="lazy">` |

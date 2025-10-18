@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "Laura Martínez",
+      "initials": "LM",
+      "role": "Directora de Expansión, Grupo Altavista",
+      "quote": "Pro Locativo estructuró un proyecto que optimizó nuestra huella inmobiliaria y redujo los costos operativos en 18%."
+    },
+    {
+      "name": "Carlos Ibargüen",
+      "initials": "CI",
+      "role": "CEO, LogisAndes",
+      "quote": "Su equipo entiende profundamente las dinámicas logísticas regionales y nos acompañó en todo el proceso de due diligence."
+    },
+    {
+      "name": "Natalia Gómez",
+      "initials": "NG",
+      "role": "Gerente Corporativa, HealthCore",
+      "quote": "Encontramos un socio confiable para implementar espacios saludables y flexibles para nuestro talento."
+    }
+  ]
+}

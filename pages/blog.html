@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog corporativo | Pro Locativo</title>
+  <meta name="description" content="Insights y análisis sobre inversión inmobiliaria corporativa, logística y tendencias urbanas." />
+  <link rel="canonical" href="https://pro-locativo.example/pages/blog.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  <link rel="stylesheet" href="/assets/css/pages.css" />
+  <meta property="og:title" content="Blog | Pro Locativo" />
+  <meta property="og:description" content="Tendencias y estrategias de real estate corporativo." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pro-locativo.example/pages/blog.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body data-page="blog">
+  <div data-component="header" data-component-src="/components/header.html"></div>
+  <main id="main">
+    <div class="u-container">
+      <nav class="breadcrumb" aria-label="Ruta de navegación">
+        <a class="breadcrumb__item" href="/index.html" data-page="home">Inicio</a>
+        <span class="breadcrumb__item" data-page="blog">Blog</span>
+      </nav>
+      <header class="section__header">
+        <h1 class="section__title">Ideas para la ciudad corporativa</h1>
+        <p class="section__subtitle">Actualizamos nuestra perspectiva con datos de mercado, casos de éxito y voces del sector.</p>
+      </header>
+    </div>
+    <section class="section" aria-labelledby="articulos">
+      <div class="u-container">
+        <h2 class="visually-hidden" id="articulos">Últimas publicaciones</h2>
+        <div class="blog-list" data-blog-list></div>
+      </div>
+    </section>
+  </main>
+  <div data-component="footer" data-component-src="/components/footer.html"></div>
+  <script type="module" src="/assets/js/main.js" defer></script>
+</body>
+</html>

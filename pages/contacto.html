@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto | Pro Locativo</title>
+  <meta name="description" content="Agenda una reunión con el equipo de Pro Locativo y recibe asesoría en inversiones inmobiliarias." />
+  <link rel="canonical" href="https://pro-locativo.example/pages/contacto.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  <link rel="stylesheet" href="/assets/css/pages.css" />
+  <meta property="og:title" content="Contacto | Pro Locativo" />
+  <meta property="og:description" content="Agenda una cita para evaluar oportunidades de inversión inmobiliaria corporativa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pro-locativo.example/pages/contacto.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body data-page="contact">
+  <div data-component="header" data-component-src="/components/header.html"></div>
+  <main id="main">
+    <div class="u-container">
+      <nav class="breadcrumb" aria-label="Ruta de navegación">
+        <a class="breadcrumb__item" href="/index.html" data-page="home">Inicio</a>
+        <span class="breadcrumb__item" data-page="contact">Contacto</span>
+      </nav>
+      <header class="section__header">
+        <h1 class="section__title">Conversemos</h1>
+        <p class="section__subtitle">Completa el formulario y agenda una sesión con nuestro equipo de inversión corporativa.</p>
+      </header>
+    </div>
+    <section class="section">
+      <div class="u-container contact-info">
+        <form class="form" data-contact-form novalidate>
+          <div class="form__group">
+            <label class="form__label" for="name">Nombre completo</label>
+            <input class="form__input" id="name" name="name" type="text" required data-validate autocomplete="name" />
+            <span class="form__error" data-error hidden></span>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="email">Correo electrónico</label>
+            <input class="form__input" id="email" name="email" type="email" required data-validate autocomplete="email" />
+            <span class="form__error" data-error hidden></span>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="phone">Teléfono</label>
+            <input class="form__input" id="phone" name="phone" type="tel" required data-validate data-mask="phone" autocomplete="tel" inputmode="tel" />
+            <span class="form__error" data-error hidden></span>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="interest">Interés principal</label>
+            <select class="form__select" id="interest" name="interest" required data-validate>
+              <option value="">Selecciona una opción</option>
+              <option value="adquisicion">Adquisición de espacios corporativos</option>
+              <option value="inversion">Inversión en proyectos</option>
+              <option value="alianzas">Alianzas estratégicas</option>
+            </select>
+            <span class="form__error" data-error hidden></span>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="message">Mensaje</label>
+            <textarea class="form__textarea" id="message" name="message" rows="5" required data-validate></textarea>
+            <span class="form__error" data-error hidden></span>
+          </div>
+          <div class="alert" data-form-status aria-live="polite"></div>
+          <button class="button button--primary" type="submit">Enviar mensaje</button>
+        </form>
+        <aside class="contact-summary">
+          <h2>Oficinas</h2>
+          <p>
+            Carrera 7 # 71-21, Bogotá DC<br />
+            Lunes a viernes de 8:00 a.m. a 6:00 p.m.
+          </p>
+          <h2>Atención personalizada</h2>
+          <ul>
+            <li>+57 601 123 4567</li>
+            <li><a href="mailto:contacto@prolocativo.com">contacto@prolocativo.com</a></li>
+            <li><a href="#">Agenda una videollamada</a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="ubicacion">
+      <div class="u-container">
+        <div class="section__header">
+          <h2 class="section__title" id="ubicacion">Dónde estamos</h2>
+          <p class="section__subtitle">Muy pronto podrás explorar nuestros proyectos en un mapa interactivo.</p>
+        </div>
+        <div class="map-placeholder">Mapa corporativo en construcción</div>
+      </div>
+    </section>
+  </main>
+  <div data-component="footer" data-component-src="/components/footer.html"></div>
+  <script type="module" src="/assets/js/main.js" defer></script>
+</body>
+</html>

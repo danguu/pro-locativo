@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio de proyectos | Pro Locativo</title>
+  <meta name="description" content="Portafolio corporativo, mixto y logístico de Pro Locativo con filtros por estado y ciudad." />
+  <link rel="canonical" href="https://pro-locativo.example/pages/proyectos.html" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/components.css" />
+  <link rel="stylesheet" href="/assets/css/pages.css" />
+  <meta property="og:title" content="Proyectos | Pro Locativo" />
+  <meta property="og:description" content="Explora el portafolio activo de proyectos corporativos en Colombia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pro-locativo.example/pages/proyectos.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+<body data-page="projects">
+  <div data-component="header" data-component-src="/components/header.html"></div>
+  <main id="main">
+    <div class="u-container">
+      <nav class="breadcrumb" aria-label="Ruta de navegación">
+        <a class="breadcrumb__item" href="/index.html" data-page="home">Inicio</a>
+        <span class="breadcrumb__item" data-page="projects">Proyectos</span>
+      </nav>
+      <header class="section__header">
+        <h1 class="section__title">Portafolio corporativo</h1>
+        <p class="section__subtitle">Filtra por estado, ciudad o tipo de desarrollo y encuentra la oportunidad ideal para tu empresa.</p>
+      </header>
+    </div>
+    <div data-component="card-listing" data-component-src="/components/card-listing.html"></div>
+    <section class="section" aria-labelledby="asesoria">
+      <div class="u-container">
+        <div class="section__header">
+          <h2 class="section__title" id="asesoria">Asesoría integral</h2>
+          <p class="section__subtitle">Estructuramos modelos financieros, contratos y estrategias de ocupación a la medida.</p>
+        </div>
+        <div class="home-benefits">
+          <article class="home-benefit">
+            <span class="home-benefit__icon" aria-hidden="true">🧭</span>
+            <h3>Acompañamiento 360°</h3>
+            <p>Desde la prefactibilidad hasta la puesta en marcha, nuestro equipo técnico y legal está contigo.</p>
+          </article>
+          <article class="home-benefit">
+            <span class="home-benefit__icon" aria-hidden="true">📊</span>
+            <h3>Gestión de capital</h3>
+            <p>Conectamos inversionistas institucionales con proyectos alineados a sus objetivos de rentabilidad.</p>
+          </article>
+          <article class="home-benefit">
+            <span class="home-benefit__icon" aria-hidden="true">🌱</span>
+            <h3>Compromiso ESG</h3>
+            <p>Certificaciones ambientales, bienestar de usuarios y soluciones de eficiencia energética.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-component="footer" data-component-src="/components/footer.html"></div>
+  <script type="module" src="/assets/js/main.js" defer></script>
+</body>
+</html>

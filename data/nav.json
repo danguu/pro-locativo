@@ -1,0 +1,14 @@
+{
+  "brand": {
+    "name": "Pro Locativo",
+    "tagline": "Inversiones inmobiliarias"
+  },
+  "items": [
+    { "id": "home", "label": "Inicio", "url": "/index.html" },
+    { "id": "projects", "label": "Proyectos", "url": "/pages/proyectos.html" },
+    { "id": "about", "label": "Nosotros", "url": "/pages/nosotros.html" },
+    { "id": "blog", "label": "Blog", "url": "/pages/blog.html" },
+    { "id": "contact", "label": "Contacto", "url": "/pages/contacto.html" }
+  ],
+  "cta": { "label": "Agenda una cita", "url": "/pages/contacto.html" }
+}

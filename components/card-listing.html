@@ -1,0 +1,18 @@
+<section class="section" aria-labelledby="destacados">
+  <div class="u-container">
+    <div class="section__header">
+      <h2 class="section__title" id="destacados">Proyectos destacados</h2>
+      <p class="section__subtitle">Conoce las oportunidades disponibles en las principales ciudades del país.</p>
+    </div>
+    <div class="filter-bar" data-listing-filters hidden>
+      <label for="filter-state">Estado</label>
+      <select id="filter-state" data-filter-state aria-label="Filtrar por estado"></select>
+      <label for="filter-city">Ciudad</label>
+      <select id="filter-city" data-filter-city aria-label="Filtrar por ciudad"></select>
+      <label for="filter-search" class="visually-hidden">Buscar por nombre</label>
+      <input id="filter-search" type="search" placeholder="Buscar proyecto" data-filter-search aria-label="Buscar proyecto" />
+    </div>
+    <div class="u-grid u-grid--3" data-listings-grid></div>
+    <nav class="pagination" data-pagination hidden aria-label="Paginación de proyectos"></nav>
+  </div>
+</section>

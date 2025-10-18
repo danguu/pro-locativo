@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": "torre-andina",
+      "title": "Torre Andina Business Center",
+      "city": "Bogotá",
+      "status": "En preventa",
+      "type": "Oficinas Clase A",
+      "price": 1850000000,
+      "image": "/assets/img/proyectos/torre-andina",
+      "url": "#"
+    },
+    {
+      "id": "campus-innovacion",
+      "title": "Campus Innovación Norte",
+      "city": "Medellín",
+      "status": "En construcción",
+      "type": "Parque empresarial",
+      "price": 1460000000,
+      "image": "/assets/img/proyectos/campus-innovacion",
+      "url": "#"
+    },
+    {
+      "id": "plaza-caribe",
+      "title": "Plaza Caribe Logistics",
+      "city": "Barranquilla",
+      "status": "Entrega inmediata",
+      "type": "Bodegas logísticas",
+      "price": 980000000,
+      "image": "/assets/img/proyectos/plaza-caribe",
+      "url": "#"
+    },
+    {
+      "id": "puerta-del-pacifico",
+      "title": "Puerta del Pacífico",
+      "city": "Cali",
+      "status": "En preventa",
+      "type": "Centro de negocios mixto",
+      "price": 1290000000,
+      "image": "/assets/img/proyectos/puerta-del-pacifico",
+      "url": "#"
+    },
+    {
+      "id": "sky-hub",
+      "title": "Sky Hub Corporativo",
+      "city": "Bogotá",
+      "status": "En construcción",
+      "type": "Torre corporativa",
+      "price": 2100000000,
+      "image": "/assets/img/proyectos/sky-hub",
+      "url": "#"
+    },
+    {
+      "id": "altos-del-rio",
+      "title": "Altos del Río",
+      "city": "Barranquilla",
+      "status": "Entrega inmediata",
+      "type": "Mixed-use",
+      "price": 1120000000,
+      "image": "/assets/img/proyectos/altos-del-rio",
+      "url": "#"
+    }
+  ]
+}
