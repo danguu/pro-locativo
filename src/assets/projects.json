@@ -1,0 +1,278 @@
+[
+  {
+    "id": "proyecto-mantenimiento-corporativo",
+    "name": "Mantenimiento Corporativo Kolbing",
+    "slug": "mantenimiento-corporativo",
+    "category": "Mantenimiento",
+    "city": "Bogotá",
+    "status": "Entregado",
+    "summary": "Programa integral de mantenimiento preventivo y correctivo para sedes corporativas con servicio 24/7.",
+    "description": "Implementamos un plan estructurado de mantenimiento para asegurar que las instalaciones corporativas permanezcan operativas, seguras y con un aspecto impecable durante todo el año.",
+    "heroImage": "/img/projects/mantenimiento-corporativo-hero.jpg",
+    "thumbnail": "/img/projects/mantenimiento-corporativo-thumb.jpg",
+    "tags": ["Oficinas", "Mantenimiento preventivo", "Respuesta 24/7"],
+    "highlights": [
+      "Plan personalizado por sede",
+      "Supervisión técnica permanente",
+      "Reportes mensuales de gestión"
+    ],
+    "technicalSheet": [
+      {
+        "title": "Servicios incluidos",
+        "items": [
+          "Mantenimiento preventivo y correctivo",
+          "Inspecciones técnicas periódicas",
+          "Limpieza especializada y control de plagas"
+        ]
+      },
+      {
+        "title": "Cobertura",
+        "items": [
+          "Áreas comunes",
+          "Centros de datos",
+          "Sistemas HVAC"
+        ]
+      }
+    ],
+    "gallery": [
+      "/img/projects/mantenimiento-corporativo-1.jpg",
+      "/img/projects/mantenimiento-corporativo-2.jpg",
+      "/img/projects/mantenimiento-corporativo-3.jpg"
+    ],
+    "location": {
+      "address": "Zona empresarial, Bogotá",
+      "lat": 4.7109886,
+      "lng": -74.072092
+    }
+  },
+  {
+    "id": "proyecto-remodelacion-centro",
+    "name": "Remodelación Centro Empresarial",
+    "slug": "remodelacion-centro-empresarial",
+    "category": "Remodelación",
+    "city": "Medellín",
+    "status": "En ejecución",
+    "summary": "Transformación de espacios corporativos con enfoque en productividad y bienestar.",
+    "description": "Renovamos áreas de coworking, salas de juntas y zonas sociales para ofrecer ambientes modernos, flexibles y eficientes que impulsan la cultura organizacional.",
+    "heroImage": "/img/projects/remodelacion-centro-hero.jpg",
+    "thumbnail": "/img/projects/remodelacion-centro-thumb.jpg",
+    "tags": ["Coworking", "Diseño interior", "Gestión integral"],
+    "highlights": [
+      "Planeación por fases para no detener operaciones",
+      "Acabados de alto tráfico",
+      "Optimización acústica y luminosa"
+    ],
+    "technicalSheet": [
+      {
+        "title": "Alcance",
+        "items": [
+          "Demoliciones controladas",
+          "Implementación de mobiliario modular",
+          "Instalaciones especiales audiovisuales"
+        ]
+      },
+      {
+        "title": "Tiempo estimado",
+        "items": [
+          "20 semanas en total",
+          "Ejecución en 4 etapas",
+          "Intervenciones nocturnas programadas"
+        ]
+      }
+    ],
+    "gallery": [
+      "/img/projects/remodelacion-centro-1.jpg",
+      "/img/projects/remodelacion-centro-2.jpg",
+      "/img/projects/remodelacion-centro-3.jpg"
+    ],
+    "location": {
+      "address": "Poblado empresarial, Medellín",
+      "lat": 6.244203,
+      "lng": -75.5812119
+    }
+  },
+  {
+    "id": "proyecto-instalaciones-industriales",
+    "name": "Instalaciones Eléctricas Industriales",
+    "slug": "instalaciones-electricas-industriales",
+    "category": "Instalaciones eléctricas",
+    "city": "Barranquilla",
+    "status": "Entregado",
+    "summary": "Actualización eléctrica certificada para planta de producción con enfoque en eficiencia energética.",
+    "description": "Modernizamos la infraestructura eléctrica garantizando continuidad operativa, reducción en el consumo energético y cumplimiento normativo.",
+    "heroImage": "/img/projects/instalaciones-industriales-hero.jpg",
+    "thumbnail": "/img/projects/instalaciones-industriales-thumb.jpg",
+    "tags": ["Industria", "Certificación RETIE", "Eficiencia energética"],
+    "highlights": [
+      "Sistemas redundantes",
+      "Iluminación LED inteligente",
+      "Monitoreo remoto"
+    ],
+    "technicalSheet": [
+      {
+        "title": "Componentes",
+        "items": [
+          "Cambio de tableros principales",
+          "Canalizaciones y cableado certificado",
+          "Integración con UPS y plantas"
+        ]
+      },
+      {
+        "title": "Beneficios",
+        "items": [
+          "Reducción del 18% en consumo",
+          "Sistema de monitoreo 24/7",
+          "Cumplimiento total RETIE"
+        ]
+      }
+    ],
+    "gallery": [
+      "/img/projects/instalaciones-industriales-1.jpg",
+      "/img/projects/instalaciones-industriales-2.jpg",
+      "/img/projects/instalaciones-industriales-3.jpg"
+    ],
+    "location": {
+      "address": "Zona Franca, Barranquilla",
+      "lat": 10.96854,
+      "lng": -74.78132
+    }
+  },
+  {
+    "id": "proyecto-vivienda-premium",
+    "name": "Remodelación Residencial Premium",
+    "slug": "remodelacion-residencial-premium",
+    "category": "Remodelación",
+    "city": "Bogotá",
+    "status": "Entregado",
+    "summary": "Actualización completa de apartamento familiar con diseño funcional y acabados de alta gama.",
+    "description": "Coordinamos la transformación integral de un apartamento, cuidando cada detalle de carpintería, iluminación y domótica para ofrecer confort superior.",
+    "heroImage": "/img/projects/remodelacion-residencial-hero.jpg",
+    "thumbnail": "/img/projects/remodelacion-residencial-thumb.jpg",
+    "tags": ["Residencial", "Diseño interior", "Domótica"],
+    "highlights": [
+      "Planeación colaborativa",
+      "Mobiliario a medida",
+      "Garantía extendida"
+    ],
+    "technicalSheet": [
+      {
+        "title": "Áreas intervenidas",
+        "items": [
+          "Cocina integral",
+          "Habitaciones y baños",
+          "Terraza y zonas sociales"
+        ]
+      },
+      {
+        "title": "Detalles clave",
+        "items": [
+          "Automatización de iluminación",
+          "Climatización silenciosa",
+          "Acabados resistentes a la humedad"
+        ]
+      }
+    ],
+    "gallery": [
+      "/img/projects/remodelacion-residencial-1.jpg",
+      "/img/projects/remodelacion-residencial-2.jpg",
+      "/img/projects/remodelacion-residencial-3.jpg"
+    ],
+    "location": {
+      "address": "Chicó, Bogotá",
+      "lat": 4.676,
+      "lng": -74.0481
+    }
+  },
+  {
+    "id": "proyecto-mantenimiento-residencial",
+    "name": "Mantenimiento de Conjuntos Residenciales",
+    "slug": "mantenimiento-conjuntos-residenciales",
+    "category": "Mantenimiento",
+    "city": "Cali",
+    "status": "En preventivo",
+    "summary": "Programa anual de mantenimiento para zonas comunes, fachadas y equipos esenciales.",
+    "description": "Coordinamos actividades periódicas para prolongar la vida útil de los activos en conjuntos residenciales, garantizando seguridad y confort para los residentes.",
+    "heroImage": "/img/projects/mantenimiento-residencial-hero.jpg",
+    "thumbnail": "/img/projects/mantenimiento-residencial-thumb.jpg",
+    "tags": ["Residencial", "Gestión integral", "Pólizas vigentes"],
+    "highlights": [
+      "Cronograma digitalizado",
+      "Cuadrillas especializadas",
+      "Seguimiento en tiempo real"
+    ],
+    "technicalSheet": [
+      {
+        "title": "Servicios",
+        "items": [
+          "Reparaciones locativas",
+          "Mantenimiento de equipos hidráulicos",
+          "Inspección de sistemas eléctricos"
+        ]
+      },
+      {
+        "title": "Cobertura",
+        "items": [
+          "Zonas húmedas",
+          "Parques infantiles",
+          "Circuitos cerrados de TV"
+        ]
+      }
+    ],
+    "gallery": [
+      "/img/projects/mantenimiento-residencial-1.jpg",
+      "/img/projects/mantenimiento-residencial-2.jpg",
+      "/img/projects/mantenimiento-residencial-3.jpg"
+    ],
+    "location": {
+      "address": "Zona sur, Cali",
+      "lat": 3.4516,
+      "lng": -76.532
+    }
+  },
+  {
+    "id": "proyecto-emergencia-electrica",
+    "name": "Respuesta a Emergencias Eléctricas 24/7",
+    "slug": "respuesta-emergencias-electricas",
+    "category": "Instalaciones eléctricas",
+    "city": "Bogotá",
+    "status": "Activo",
+    "summary": "Atención inmediata para fallas eléctricas críticas en edificios corporativos y residenciales.",
+    "description": "Nuestro equipo especializado atiende reportes de emergencia en menos de 90 minutos, garantizando diagnósticos precisos y restablecimiento seguro.",
+    "heroImage": "/img/projects/emergencia-electrica-hero.jpg",
+    "thumbnail": "/img/projects/emergencia-electrica-thumb.jpg",
+    "tags": ["Respuesta inmediata", "Guardia 24/7", "Diagnóstico avanzado"],
+    "highlights": [
+      "Cobertura nacional",
+      "Equipos certificados",
+      "Protocolos de seguridad"
+    ],
+    "technicalSheet": [
+      {
+        "title": "Tiempo de respuesta",
+        "items": [
+          "Promedio 90 minutos",
+          "Informe posterior en 12 horas",
+          "Disponibilidad continua"
+        ]
+      },
+      {
+        "title": "Servicios prioritarios",
+        "items": [
+          "Corrección de fallas críticas",
+          "Estabilización temporal",
+          "Reparación definitiva programada"
+        ]
+      }
+    ],
+    "gallery": [
+      "/img/projects/emergencia-electrica-1.jpg",
+      "/img/projects/emergencia-electrica-2.jpg",
+      "/img/projects/emergencia-electrica-3.jpg"
+    ],
+    "location": {
+      "address": "Operación nacional",
+      "lat": 4.6486259,
+      "lng": -74.2478939
+    }
+  }
+]
