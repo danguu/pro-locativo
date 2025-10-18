@@ -1,48 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Servicios Locativos y Mantenimiento Profesional | Kolbing Like</title>
-    <meta name="description" content="Servicios locativos y mantenimiento con enfoque profesional. Mantenimiento, remodelación e instalaciones eléctricas para empresas y hogares." />
-    <meta name="author" content="Kolbing Like" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-    <meta property="og:title" content="Servicios Locativos y Mantenimiento Profesional | Kolbing Like" />
-    <meta property="og:description" content="Servicios locativos y mantenimiento con enfoque profesional. Mantenimiento, remodelación e instalaciones eléctricas para empresas y hogares." />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Servicios Locativos y Mantenimiento Profesional" />
-    <meta name="twitter:description" content="Servicios locativos y mantenimiento con enfoque profesional" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Kolbing Like",
-      "description": "Servicios locativos y mantenimiento con enfoque profesional",
-      "url": "https://yoursite.com",
-      "logo": "https://yoursite.com/logo.png"
-    }
-    </script>
-    
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Kolbing Like",
-      "url": "https://yoursite.com"
-    }
-    </script>
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProLocativo | Desarrollo inmobiliario sostenible</title>
+  <meta name="description" content="Proyectos inmobiliarios confiables en Colombia con enfoque sostenible, analítica y acompañamiento integral.">
+  <link rel="canonical" href="https://prolocativo.example.com/">
+  <meta property="og:title" content="ProLocativo | Desarrollo inmobiliario sostenible">
+  <meta property="og:description" content="Explora proyectos inmobiliarios con tecnología, sostenibilidad y asesoría experta.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://prolocativo.example.com/">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="ProLocativo | Desarrollo inmobiliario sostenible">
+  <meta property="twitter:description" content="Proyectos confiables, rentables y centrados en las personas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='48' font-size='48'%3E🏢%3C/text%3E%3C/svg%3E">
+  <script type="module" src="/assets/js/main.js" defer></script>
+</head>
+<body data-page="home">
+  <div data-component="header" data-src="/components/header.html"></div>
+  <main id="main-content" class="main-content" tabindex="-1">
+    <div data-component="hero" data-src="/components/hero.html"></div>
+    <div data-component="card-listing" data-src="/components/card-listing.html" data-variant="home" data-limit="3"></div>
+    <section class="section" aria-label="Indicadores de confianza">
+      <div class="container">
+        <div class="tabs" data-tabs>
+          <div class="tabs__list" role="tablist">
+            <button class="tabs__trigger" id="tab-impacto" role="tab" aria-controls="panel-impacto" aria-selected="true">Impacto</button>
+            <button class="tabs__trigger" id="tab-servicio" role="tab" aria-controls="panel-servicio" aria-selected="false">Servicio</button>
+            <button class="tabs__trigger" id="tab-tecnologia" role="tab" aria-controls="panel-tecnologia" aria-selected="false">Tecnología</button>
+          </div>
+          <div class="tabs__panel" id="panel-impacto" role="tabpanel" aria-labelledby="tab-impacto" aria-hidden="false">
+            <p>Más del 60% de nuestros proyectos incorporan estrategias de economía circular y certificaciones ambientales.</p>
+          </div>
+          <div class="tabs__panel" id="panel-servicio" role="tabpanel" aria-labelledby="tab-servicio" aria-hidden="true">
+            <p>Equipo dedicado de consultores, arquitectos y abogados con acompañamiento personalizado para cada cliente.</p>
+          </div>
+          <div class="tabs__panel" id="panel-tecnologia" role="tabpanel" aria-labelledby="tab-tecnologia" aria-hidden="true">
+            <p>Implementamos analítica en vivo, recorridos inmersivos y plataformas CRM para seguimiento transparente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--muted" aria-label="Insights inmobiliarios">
+      <div class="container">
+        <h2 class="section-title">Insights más recientes</h2>
+        <p class="section-subtitle">Tendencias, análisis y recomendaciones para tomar decisiones inteligentes.</p>
+        <div class="blog-list mt-lg">
+          <article class="blog-card">
+            <div class="blog-card__media">
+              <img src="/assets/img/blog/recorrido-virtual-640.jpg" srcset="/assets/img/blog/recorrido-virtual-640.jpg 640w, /assets/img/blog/recorrido-virtual-1280.jpg 1280w" sizes="(max-width: 600px) 100vw, 360px" alt="Personas explorando un proyecto inmobiliario con realidad virtual" loading="lazy">
+            </div>
+            <div class="blog-card__body">
+              <div class="blog-card__meta">Experiencias digitales · 6 min de lectura</div>
+              <h3>Recorridos virtuales que convierten leads en compradores</h3>
+              <p>Cómo la visualización inmersiva reduce la incertidumbre y acelera las decisiones de compra.</p>
+              <a class="btn btn--secondary" href="/pages/blog.html" data-track="blog">Leer más</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__media">
+              <img src="/assets/img/blog/ciudad-sostenible-640.jpg" srcset="/assets/img/blog/ciudad-sostenible-640.jpg 640w, /assets/img/blog/ciudad-sostenible-1280.jpg 1280w" sizes="(max-width: 600px) 100vw, 360px" alt="Vista aérea de un barrio con zonas verdes" loading="lazy">
+            </div>
+            <div class="blog-card__body">
+              <div class="blog-card__meta">Sostenibilidad · 5 min de lectura</div>
+              <h3>Ciudades de 15 minutos: hoja de ruta para los desarrolladores</h3>
+              <p>Claves para planear proyectos con servicios de proximidad y movilidad eficiente.</p>
+              <a class="btn btn--secondary" href="/pages/blog.html" data-track="blog">Ver artículo</a>
+            </div>
+          </article>
+          <article class="blog-card">
+            <div class="blog-card__media">
+              <img src="/assets/img/blog/inversion-colombia-640.jpg" srcset="/assets/img/blog/inversion-colombia-640.jpg 640w, /assets/img/blog/inversion-colombia-1280.jpg 1280w" sizes="(max-width: 600px) 100vw, 360px" alt="Edificios modernos en una ciudad colombiana" loading="lazy">
+            </div>
+            <div class="blog-card__body">
+              <div class="blog-card__meta">Inversión · 8 min de lectura</div>
+              <h3>Invertir desde el exterior en Colombia</h3>
+              <p>Requisitos, beneficios fiscales y servicios que ofrecemos para inversionistas internacionales.</p>
+              <a class="btn btn--secondary" href="/pages/blog.html" data-track="blog">Explorar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <div data-component="testimonial" data-src="/components/testimonial.html"></div>
+    <div data-component="faq" data-src="/components/faq.html"></div>
+    <section class="section" aria-label="Llamado a la acción">
+      <div class="container contact-card">
+        <h2 class="section-title">¿Listo para desarrollar tu próximo proyecto?</h2>
+        <p class="section-subtitle">Agenda una sesión de diagnóstico con nuestro equipo y recibe un plan a la medida.</p>
+        <a class="btn btn--primary" href="/pages/contacto.html" data-track="cta">Solicitar diagnóstico</a>
+      </div>
+    </section>
+  </main>
+  <div data-component="footer" data-src="/components/footer.html"></div>
+</body>
 </html>

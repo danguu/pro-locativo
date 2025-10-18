@@ -1,0 +1,74 @@
+[
+  {
+    "id": "distrito-creativo",
+    "nombre": "Distrito Creativo Norte",
+    "ciudad": "Bogotá",
+    "estado": "disponible",
+    "tipologia": "Uso mixto",
+    "descripcion": "Un complejo con oficinas flexibles, viviendas tipo loft y zonas culturales conectadas al transporte público.",
+    "imagen": "/assets/img/proyectos/distrito-creativo"
+  },
+  {
+    "id": "bahia-marina",
+    "nombre": "Bahía Marina Residencial",
+    "ciudad": "Cartagena",
+    "estado": "preventa",
+    "tipologia": "Residencial",
+    "descripcion": "Torres residenciales frente a la bahía con amenidades premium y certificación EDGE en progreso.",
+    "imagen": "/assets/img/proyectos/bahia-marina"
+  },
+  {
+    "id": "cumbres-valle",
+    "nombre": "Cumbres del Valle",
+    "ciudad": "Rionegro",
+    "estado": "disponible",
+    "tipologia": "Campestre",
+    "descripcion": "Casas campestres con senderos ecológicos, paneles solares y servicios compartidos para teletrabajo.",
+    "imagen": "/assets/img/proyectos/cumbres-valle"
+  },
+  {
+    "id": "puerto-innovador",
+    "nombre": "Puerto Innovador",
+    "ciudad": "Barranquilla",
+    "estado": "preventa",
+    "tipologia": "Industrial",
+    "descripcion": "Hub logístico y de innovación con bodegas modulares, coworking y procesos carbono neutro.",
+    "imagen": "/assets/img/proyectos/puerto-innovador"
+  },
+  {
+    "id": "jardin-metropolitano",
+    "nombre": "Jardín Metropolitano",
+    "ciudad": "Medellín",
+    "estado": "vendido",
+    "tipologia": "Residencial",
+    "descripcion": "Vivienda multifamiliar con terrazas verdes, comercio de proximidad y rutas de movilidad activa.",
+    "imagen": "/assets/img/proyectos/jardin-metropolitano"
+  },
+  {
+    "id": "altos-del-rio",
+    "nombre": "Altos del Río",
+    "ciudad": "Cali",
+    "estado": "disponible",
+    "tipologia": "Residencial",
+    "descripcion": "Apartamentos familiares con club house, piscina semiolímpica y zonas de bienestar integral.",
+    "imagen": "/assets/img/proyectos/altos-del-rio"
+  },
+  {
+    "id": "plaza-360",
+    "nombre": "Plaza 360",
+    "ciudad": "Bogotá",
+    "estado": "disponible",
+    "tipologia": "Corporativo",
+    "descripcion": "Centro corporativo con terrazas activas, salas de innovación y certificación LEED Gold.",
+    "imagen": "/assets/img/proyectos/plaza-360"
+  },
+  {
+    "id": "maranta",
+    "nombre": "Maranta Living",
+    "ciudad": "Santa Marta",
+    "estado": "preventa",
+    "tipologia": "Residencial",
+    "descripcion": "Vivienda turística con acceso directo a la playa, paneles solares y servicios hoteleros bajo demanda.",
+    "imagen": "/assets/img/proyectos/maranta"
+  }
+]

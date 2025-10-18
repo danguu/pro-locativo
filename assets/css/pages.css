@@ -1,0 +1,127 @@
+/*
+ * Page specific variations
+ */
+.home-hero {
+  position: relative;
+}
+
+.home-hero::after {
+  content: "";
+  position: absolute;
+  inset: 20% auto auto 60%;
+  width: 280px;
+  height: 280px;
+  background: radial-gradient(circle at center, rgba(29, 78, 216, 0.18), transparent 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.benefits-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.benefit-card {
+  background: #fff;
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-subtle);
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.benefit-card__icon {
+  font-size: 1.75rem;
+  color: var(--primary);
+}
+
+.projects-page__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.projects-page__filters select,
+.projects-page__filters button {
+  padding: 0.65rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  background: #fff;
+  font: inherit;
+}
+
+.projects-page__filters button[aria-pressed="true"] {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.blog-list {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-subtle);
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card__media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: rgba(15, 23, 42, 0.1);
+}
+
+.blog-card__body {
+  padding: var(--space-lg);
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.blog-card__meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.contact-page__aside {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.contact-page__map {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  min-height: 220px;
+  background: rgba(15, 23, 42, 0.12);
+}
+
+.timeline__year {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.values-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.value-card {
+  background: #fff;
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-subtle);
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.value-card__icon {
+  font-size: 2rem;
+}

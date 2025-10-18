@@ -1,0 +1,9 @@
+{
+  "primary": [
+    { "label": "Inicio", "href": "/index.html" },
+    { "label": "Proyectos", "href": "/pages/proyectos.html" },
+    { "label": "Nosotros", "href": "/pages/nosotros.html" },
+    { "label": "Blog", "href": "/pages/blog.html" },
+    { "label": "Contacto", "href": "/pages/contacto.html" }
+  ]
+}

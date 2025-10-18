@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto | ProLocativo</title>
+  <meta name="description" content="Agenda una asesoría con ProLocativo para conocer oportunidades de inversión y desarrollo inmobiliario.">
+  <link rel="canonical" href="https://prolocativo.example.com/pages/contacto.html">
+  <meta property="og:title" content="Contacto | ProLocativo">
+  <meta property="og:description" content="Escríbenos y recibe un plan personalizado para tu proyecto inmobiliario.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://prolocativo.example.com/pages/contacto.html">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Contacto | ProLocativo">
+  <meta property="twitter:description" content="Equipo experto para asesorarte en inversión y desarrollo inmobiliario.">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;600&family=Poppins:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/base.css">
+  <link rel="stylesheet" href="/assets/css/layout.css">
+  <link rel="stylesheet" href="/assets/css/components.css">
+  <link rel="stylesheet" href="/assets/css/pages.css">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <script type="module" src="/assets/js/main.js" defer></script>
+</head>
+<body data-page="contact">
+  <div data-component="header" data-src="/components/header.html"></div>
+  <main id="main-content" class="main-content" tabindex="-1">
+    <div class="section section--muted">
+      <div class="container">
+        <nav aria-label="Breadcrumb" class="breadcrumbs" data-breadcrumbs></nav>
+        <h1 class="section-title">Conversemos sobre tu próximo proyecto</h1>
+        <p class="section-subtitle">Completa el formulario y agenda una asesoría con nuestros especialistas en inversión y desarrollo.</p>
+      </div>
+    </div>
+    <section class="section" aria-label="Formulario de contacto">
+      <div class="container contact-grid">
+        <form class="contact-card form-grid" data-form="contact" novalidate>
+          <div class="form-field">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+            <p class="field-helper">Como aparece en tu documento</p>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <label for="telefono">Teléfono</label>
+            <input id="telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required>
+            <p class="field-helper">Incluye indicativo si estás fuera de Colombia</p>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <label for="interes">Interés principal</label>
+            <select id="interes" name="interes">
+              <option value="inversion">Inversión inmobiliaria</option>
+              <option value="alianza">Alianzas para desarrollo</option>
+              <option value="vivienda">Compra de vivienda</option>
+              <option value="otros">Otros</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="mensaje">Cuéntanos más</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <p class="field-error" aria-live="polite"></p>
+          </div>
+          <div class="form-field">
+            <button class="btn btn--primary" type="submit" data-track="form-contacto">Enviar mensaje</button>
+            <p class="field-helper" data-form-feedback aria-live="polite"></p>
+          </div>
+        </form>
+        <aside class="contact-page__aside">
+          <article class="contact-card">
+            <h2 class="section-title" style="font-size:1.5rem;">Datos de contacto</h2>
+            <p>Lunes a viernes: 8:00 a.m. - 6:00 p.m.</p>
+            <ul>
+              <li><a href="tel:+573001234567">+57 300 123 4567</a></li>
+              <li><a href="mailto:hola@prolocativo.com">hola@prolocativo.com</a></li>
+            </ul>
+            <p>Carrera 7 #123-45, Bogotá</p>
+            <img src="/assets/img/contacto/oficina-640.jpg" srcset="/assets/img/contacto/oficina-640.jpg 640w, /assets/img/contacto/oficina-1280.jpg 1280w" sizes="(max-width: 600px) 100vw, 400px" alt="Oficina moderna de ProLocativo" loading="lazy">
+          </article>
+          <div class="contact-page__map" aria-label="Ubicación en mapa">
+            <iframe title="Mapa de ProLocativo" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.0721%2C4.711%2C-74.055%2C4.72&layer=mapnik" loading="lazy" style="border:0; width:100%; height:100%;" referrerpolicy="no-referrer"></iframe>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <div data-component="footer" data-src="/components/footer.html"></div>
+</body>
+</html>

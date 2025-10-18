@@ -1,0 +1,16 @@
+{
+  "name": "ProLocativo",
+  "short_name": "ProLocativo",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1d4ed8",
+  "description": "Proyectos inmobiliarios sostenibles y centrados en las personas.",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='48' font-size='48'%3E🏢%3C/text%3E%3C/svg%3E",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
