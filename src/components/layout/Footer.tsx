@@ -1,124 +1,102 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { contactChannels, footerLinks, newsletterCopy } from "@/assets/content";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { toTelLink } from "@/lib/format";
 
 export const Footer = () => {
   return (
-    <footer className="bg-ink-2 border-t border-border">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* About */}
-          <div>
-            <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">K</span>
-              </div>
-              <span className="text-xl font-semibold text-foreground">Kolbing Like</span>
-            </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              Servicios locativos y mantenimiento con enfoque profesional. Más de 8 años brindando
-              soluciones integrales para empresas y hogares.
-            </p>
-          </div>
-
-          {/* Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Enlaces</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link
-                  to="/servicios"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Servicios
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/nosotros"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Nosotros
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/blog"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/testimonios"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  Testimonios
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/preguntas-frecuentes"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  FAQ
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contacto</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-sm text-muted-foreground">
-                  Calle Principal 123, Ciudad, País
-                </span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <a
-                  href="mailto:info@kolbinglike.com"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  info@kolbinglike.com
-                </a>
-              </li>
-              <li className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-primary flex-shrink-0" />
-                <a
-                  href="tel:+123456789"
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                >
-                  +1 (234) 567-89
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="pt-8 border-t border-border">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Kolbing Like. Todos los derechos reservados.
-            </p>
-            <div className="flex space-x-6">
-              <Link
-                to="#"
-                className="text-sm text-muted-foreground hover:text-primary transition-colors"
-              >
-                Política de privacidad
-              </Link>
-              <Link
-                to="#"
-                className="text-sm text-muted-foreground hover:text-primary transition-colors"
-              >
-                Términos de servicio
-              </Link>
+    <footer className="bg-slate-950 text-slate-200">
+      <div className="container mx-auto grid gap-10 px-4 py-16 md:grid-cols-2 lg:grid-cols-4">
+        <div className="space-y-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-primary text-primary-foreground text-xl font-semibold">
+              K
+            </div>
+            <div>
+              <div className="text-lg font-semibold">Kolbing Like</div>
+              <p className="text-sm text-slate-400">Soluciones locativas y mantenimiento profesional.</p>
             </div>
           </div>
+          <p className="text-sm text-slate-400">
+            Más de ocho años acompañando a empresas y hogares con servicios preventivos, remodelación estratégica e instalaciones eléctricas certificadas.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-300">Compañía</h3>
+          <ul className="mt-4 space-y-2 text-sm text-slate-400">
+            {footerLinks.company.map((item) => (
+              <li key={item.href}>
+                <Link to={item.href} className="transition hover:text-white">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-300">Servicios</h3>
+          <ul className="mt-4 space-y-2 text-sm text-slate-400">
+            {footerLinks.services.map((item) => (
+              <li key={item.href}>
+                <Link to={item.href} className="transition hover:text-white">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="space-y-4">
+          <h3 className="text-sm font-semibold uppercase tracking-wider text-slate-300">Newsletter</h3>
+          <p className="text-sm text-slate-400">{newsletterCopy.description}</p>
+          <form
+            className="space-y-3"
+            onSubmit={(event) => {
+              event.preventDefault();
+              const form = event.currentTarget;
+              form.reset();
+            }}
+          >
+            <Input type="email" required placeholder="tu@correo.com" className="bg-slate-900 text-slate-100" />
+            <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+              <Send className="mr-2 h-4 w-4" aria-hidden /> Suscribirme
+            </Button>
+          </form>
+        </div>
+      </div>
+      <div className="border-t border-slate-800">
+        <div className="container mx-auto flex flex-col gap-4 px-4 py-6 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-6">
+            <span className="inline-flex items-center gap-2">
+              <Phone className="h-4 w-4" aria-hidden />
+              <a href={`tel:${toTelLink(contactChannels.phone)}`} className="hover:text-white">
+                {contactChannels.phone}
+              </a>
+            </span>
+            <span className="inline-flex items-center gap-2">
+              <Mail className="h-4 w-4" aria-hidden />
+              <a href={`mailto:${contactChannels.email}`} className="hover:text-white">
+                {contactChannels.email}
+              </a>
+            </span>
+            <span className="inline-flex items-center gap-2">
+              <MapPin className="h-4 w-4" aria-hidden />
+              {contactChannels.address}
+            </span>
+          </div>
+          <div className="flex flex-wrap gap-4">
+            {footerLinks.legal.map((item) => (
+              <Link key={item.href} to={item.href} className="hover:text-white">
+                {item.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+      <div className="border-t border-slate-800">
+        <div className="container mx-auto px-4 py-4 text-xs text-slate-500">
+          © {new Date().getFullYear()} Kolbing Like. Todos los derechos reservados.
         </div>
       </div>
     </footer>
