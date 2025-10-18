@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Favicon Pro Locativo</title>
+  <desc id="desc">Icono compacto con las letras PL entrelazadas.</desc>
+  <rect width="64" height="64" rx="12" fill="#0b1120" />
+  <path fill="#f97316" d="M18 16h16a14 14 0 0 1 0 28h-6v4H18Zm10 10v12h6a6 6 0 0 0 0-12Z" />
+</svg>

@@ -1,0 +1,29 @@
+@layer components {
+  .page-section {
+    @apply py-20 md:py-24;
+  }
+
+  .section-heading {
+    @apply text-center mb-12 md:mb-16;
+  }
+
+  .section-heading__subtitle {
+    @apply text-sm font-semibold uppercase tracking-[0.3em] text-primary mb-3;
+  }
+
+  .section-heading__title {
+    @apply text-3xl md:text-4xl font-bold text-balance;
+  }
+
+  .section-heading__description {
+    @apply max-w-2xl mx-auto text-lg text-muted-foreground;
+  }
+
+  .grid-responsive {
+    @apply grid gap-8 sm:grid-cols-2 xl:grid-cols-3;
+  }
+
+  .container-responsive {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}

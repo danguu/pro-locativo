@@ -1,0 +1,41 @@
+[
+  {
+    "id": "plaza-andes",
+    "nombre": "Plaza Los Andes",
+    "ubicacion": "Chicó Norte, Bogotá",
+    "estatus": "Preventas abiertas",
+    "tipologias": ["Apartaestudios", "2 Habitaciones"],
+    "area_desde": "45 m²",
+    "precio_desde": "$480.000.000",
+    "amenidades": ["Coworking", "Terraza verde", "Gimnasio equipado", "Zona infantil"],
+    "slug": "plaza-los-andes",
+    "imageId": "property-card-01",
+    "destacado": true
+  },
+  {
+    "id": "torre-aurora",
+    "nombre": "Torre Aurora",
+    "ubicacion": "El Poblado, Medellín",
+    "estatus": "Entrega inmediata",
+    "tipologias": ["Lofts", "3 Habitaciones"],
+    "area_desde": "62 m²",
+    "precio_desde": "$720.000.000",
+    "amenidades": ["Sky lounge", "Piscina climatizada", "Salón social", "Parqueaderos inteligentes"],
+    "slug": "torre-aurora",
+    "imageId": "property-card-02",
+    "destacado": false
+  },
+  {
+    "id": "bahia-nativa",
+    "nombre": "Bahía Nativa",
+    "ubicacion": "Serena del Mar, Cartagena",
+    "estatus": "En construcción",
+    "tipologias": ["Apartamentos vista mar"],
+    "area_desde": "78 m²",
+    "precio_desde": "$890.000.000",
+    "amenidades": ["Club náutico", "Zonas húmedas", "Senderos peatonales", "Portería 24/7"],
+    "slug": "bahia-nativa",
+    "imageId": "property-card-03",
+    "destacado": true
+  }
+]

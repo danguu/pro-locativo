@@ -1,0 +1,42 @@
+[
+  {
+    "id": "maria-gonzalez",
+    "name": "María González",
+    "role": "Gerente de Operaciones",
+    "company": "Empresa Tech Solutions",
+    "content": "Excelente servicio. El equipo de Pro Locativo realizó el mantenimiento de nuestras oficinas de manera profesional y puntual. Totalmente recomendados.",
+    "rating": 5
+  },
+  {
+    "id": "carlos-ramirez",
+    "name": "Carlos Ramírez",
+    "role": "Propietario",
+    "company": "Residencial Los Álamos",
+    "content": "La remodelación de nuestro hogar superó nuestras expectativas. Atención al detalle excepcional y cumplimiento de los plazos establecidos.",
+    "rating": 5
+  },
+  {
+    "id": "ana-martinez",
+    "name": "Ana Martínez",
+    "role": "Directora de Facilities",
+    "company": "Corporativo Central",
+    "content": "Trabajamos con ellos desde hace 2 años en el mantenimiento de nuestros edificios. Su profesionalismo y compromiso son sobresalientes.",
+    "rating": 5
+  },
+  {
+    "id": "roberto-silva",
+    "name": "Roberto Silva",
+    "role": "Administrador",
+    "company": "Centro Comercial Plaza",
+    "content": "Las instalaciones eléctricas fueron realizadas con los más altos estándares de calidad. Equipo técnico muy capacitado.",
+    "rating": 5
+  },
+  {
+    "id": "laura-torres",
+    "name": "Laura Torres",
+    "role": "Propietaria",
+    "company": "Apartamento Familiar",
+    "content": "Resolvieron una emergencia eléctrica en tiempo récord. Su servicio 24/7 es invaluable. Gracias por la rapidez y profesionalismo.",
+    "rating": 5
+  }
+]

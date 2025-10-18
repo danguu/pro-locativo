@@ -1,0 +1,47 @@
+{
+  "url": "https://pro-locativo.example.com",
+  "defaultDescription": "Consultora inmobiliaria especializada en proyectos locativos, mantenimiento y administración de propiedades.",
+  "defaultImageId": "hero-home",
+  "language": "es-CO",
+  "author": "Pro Locativo",
+  "brand": {
+    "name": "Pro Locativo",
+    "legal_name": "Pro Locativo SAS",
+    "tagline": "Servicios locativos y proyectos inmobiliarios de alta calidad",
+    "logoId": "logo"
+  },
+  "contact": {
+    "phone": "+1 (234) 567-89",
+    "phone_e164": "+123456789",
+    "email": "info@kolbinglike.com",
+    "address": "TODO: Actualizar dirección principal de la oficina",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "schedule": [
+      {
+        "label": "Lunes a Viernes",
+        "value": "08:00 a.m. – 06:00 p.m."
+      },
+      {
+        "label": "Sábados",
+        "value": "09:00 a.m. – 01:00 p.m."
+      }
+    ]
+  },
+  "legal": {
+    "privacy": "/aviso-de-privacidad",
+    "terms": "/terminos-y-condiciones",
+    "nit": "TODO: Ingresar número de identificación tributaria"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "youtube": "https://www.youtube.com/"
+  },
+  "whatsapp": {
+    "label": "Escríbenos por WhatsApp",
+    "number": "+123456789",
+    "link": "https://wa.me/123456789"
+  }
+}

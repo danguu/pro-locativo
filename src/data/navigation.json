@@ -1,0 +1,11 @@
+[
+  { "id": "home", "label": "Inicio", "path": "/" },
+  { "id": "proyectos", "label": "Proyectos", "path": "/proyectos" },
+  { "id": "inmuebles", "label": "Inmuebles", "path": "/inmuebles" },
+  { "id": "servicios", "label": "Servicios", "path": "/servicios" },
+  { "id": "nosotros", "label": "Nosotros", "path": "/nosotros" },
+  { "id": "testimonios", "label": "Testimonios", "path": "/testimonios" },
+  { "id": "faq", "label": "FAQ", "path": "/preguntas-frecuentes" },
+  { "id": "blog", "label": "Blog", "path": "/blog" },
+  { "id": "contacto", "label": "Contacto", "path": "/contacto" }
+]

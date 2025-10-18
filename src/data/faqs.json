@@ -1,0 +1,22 @@
+[
+  {
+    "id": "servicios-incluidos",
+    "question": "¿Qué servicios incluye Pro Locativo?",
+    "answer": "Ofrecemos mantenimiento locativo, gestión de proyectos inmobiliarios, administración de propiedades y acompañamiento comercial para la venta o arriendo de inmuebles corporativos y residenciales."
+  },
+  {
+    "id": "procesos-de-compra",
+    "question": "¿Cómo es el proceso para adquirir un inmueble con ustedes?",
+    "answer": "Asignamos un asesor experto que valida tu presupuesto, te presenta las mejores opciones del portafolio y acompaña cada etapa: reserva, separación, escrituración y entrega."
+  },
+  {
+    "id": "financiacion",
+    "question": "¿Brindan asesoría financiera?",
+    "answer": "Sí. Contamos con aliados bancarios y especialistas que te guían en la obtención de créditos hipotecarios, leasing habitacional o esquemas de pago flexibles según tu perfil."
+  },
+  {
+    "id": "postventa",
+    "question": "¿Qué soporte postventa ofrecen?",
+    "answer": "Nuestro equipo de postventa monitorea el cumplimiento de garantías, gestiona reparaciones y mantiene comunicación directa con copropiedades para asegurar una experiencia sin fricciones."
+  }
+]

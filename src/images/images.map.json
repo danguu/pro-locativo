@@ -1,0 +1,162 @@
+[
+  {
+    "id": "logo",
+    "page": "global",
+    "component": "Header",
+    "purpose": "Marca",
+    "recommended_size": "SVG o 256x64 px",
+    "ratio": "4:1",
+    "alt": "Logo de Pro Locativo",
+    "filename": "logo.svg",
+    "target_path": "public/assets/img/logo.svg"
+  },
+  {
+    "id": "hero-home",
+    "page": "home",
+    "component": "Hero",
+    "purpose": "Hero principal",
+    "recommended_size": "1920x1080",
+    "ratio": "16:9",
+    "alt": "Proyecto inmobiliario destacado",
+    "filename": "hero-home.svg",
+    "target_path": "public/assets/img/hero-home.svg",
+    "variants": [
+      { "w": 480, "filename": "hero-home-480.svg" },
+      { "w": 768, "filename": "hero-home-768.svg" },
+      { "w": 1280, "filename": "hero-home-1280.svg" },
+      { "w": 1920, "filename": "hero-home-1920.svg" }
+    ]
+  },
+  {
+    "id": "hero-proyectos",
+    "page": "proyectos",
+    "component": "Hero",
+    "purpose": "Encabezado de proyectos",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Vista aérea de un conjunto residencial",
+    "filename": "hero-proyectos.svg",
+    "target_path": "public/assets/img/hero-proyectos.svg"
+  },
+  {
+    "id": "hero-inmuebles",
+    "page": "inmuebles",
+    "component": "Hero",
+    "purpose": "Encabezado de listado de inmuebles",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Interior moderno de apartamento",
+    "filename": "hero-inmuebles.svg",
+    "target_path": "public/assets/img/hero-inmuebles.svg"
+  },
+  {
+    "id": "hero-nosotros",
+    "page": "nosotros",
+    "component": "Hero",
+    "purpose": "Hero sobre nosotros",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Equipo de trabajo colaborando",
+    "filename": "hero-nosotros.svg",
+    "target_path": "public/assets/img/hero-nosotros.svg"
+  },
+  {
+    "id": "hero-servicios",
+    "page": "servicios",
+    "component": "Hero",
+    "purpose": "Hero de servicios",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Técnico realizando mantenimiento",
+    "filename": "hero-servicios.svg",
+    "target_path": "public/assets/img/hero-servicios.svg"
+  },
+  {
+    "id": "hero-testimonios",
+    "page": "testimonios",
+    "component": "Hero",
+    "purpose": "Encabezado de testimonios",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Clientes satisfechos celebrando",
+    "filename": "hero-testimonios.svg",
+    "target_path": "public/assets/img/hero-testimonios.svg"
+  },
+  {
+    "id": "hero-faq",
+    "page": "faq",
+    "component": "Hero",
+    "purpose": "Encabezado de preguntas frecuentes",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Persona consultando información",
+    "filename": "hero-faq.svg",
+    "target_path": "public/assets/img/hero-faq.svg"
+  },
+  {
+    "id": "hero-blog",
+    "page": "blog",
+    "component": "Hero",
+    "purpose": "Hero del blog",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Equipo trabajando en laptops",
+    "filename": "hero-blog.svg",
+    "target_path": "public/assets/img/hero-blog.svg"
+  },
+  {
+    "id": "hero-contacto",
+    "page": "contacto",
+    "component": "Hero",
+    "purpose": "Hero contacto",
+    "recommended_size": "1920x960",
+    "ratio": "2:1",
+    "alt": "Asesora inmobiliaria atendiendo llamada",
+    "filename": "hero-contacto.svg",
+    "target_path": "public/assets/img/hero-contacto.svg"
+  },
+  {
+    "id": "property-card-01",
+    "page": "proyectos",
+    "component": "PropertyCard",
+    "purpose": "Miniatura de proyecto",
+    "recommended_size": "1200x900",
+    "ratio": "4:3",
+    "alt": "Render del proyecto Plaza Los Andes",
+    "filename": "property-01.svg",
+    "target_path": "public/assets/img/property-01.svg"
+  },
+  {
+    "id": "property-card-02",
+    "page": "proyectos",
+    "component": "PropertyCard",
+    "purpose": "Miniatura de proyecto",
+    "recommended_size": "1200x900",
+    "ratio": "4:3",
+    "alt": "Render del proyecto Torre Aurora",
+    "filename": "property-02.svg",
+    "target_path": "public/assets/img/property-02.svg"
+  },
+  {
+    "id": "property-card-03",
+    "page": "proyectos",
+    "component": "PropertyCard",
+    "purpose": "Miniatura de proyecto",
+    "recommended_size": "1200x900",
+    "ratio": "4:3",
+    "alt": "Render del proyecto Bahía Nativa",
+    "filename": "property-03.svg",
+    "target_path": "public/assets/img/property-03.svg"
+  },
+  {
+    "id": "team-gallery",
+    "page": "nosotros",
+    "component": "Gallery",
+    "purpose": "Fotografía del equipo",
+    "recommended_size": "1440x900",
+    "ratio": "16:10",
+    "alt": "Equipo de Pro Locativo reunido",
+    "filename": "team-gallery.svg",
+    "target_path": "public/assets/img/team-gallery.svg"
+  }
+]

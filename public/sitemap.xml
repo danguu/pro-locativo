@@ -1,45 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yoursite.com/</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://pro-locativo.example.com/</loc>
   </url>
   <url>
-    <loc>https://yoursite.com/servicios</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://pro-locativo.example.com/proyectos</loc>
   </url>
   <url>
-    <loc>https://yoursite.com/nosotros</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://pro-locativo.example.com/inmuebles</loc>
   </url>
   <url>
-    <loc>https://yoursite.com/blog</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://pro-locativo.example.com/servicios</loc>
   </url>
   <url>
-    <loc>https://yoursite.com/contacto</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://pro-locativo.example.com/nosotros</loc>
   </url>
   <url>
-    <loc>https://yoursite.com/testimonios</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://pro-locativo.example.com/testimonios</loc>
   </url>
   <url>
-    <loc>https://yoursite.com/preguntas-frecuentes</loc>
-    <lastmod>2024-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://pro-locativo.example.com/preguntas-frecuentes</loc>
+  </url>
+  <url>
+    <loc>https://pro-locativo.example.com/blog</loc>
+  </url>
+  <url>
+    <loc>https://pro-locativo.example.com/contacto</loc>
   </url>
 </urlset>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-labelledby="title desc">
+  <title id="title">Pro Locativo Icon 192</title>
+  <desc id="desc">Monograma estilizado de las letras P y L para Pro Locativo.</desc>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#1f2937" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="32" fill="url(#gradient)" />
+  <path fill="#f97316" d="M56 48h48a40 40 0 0 1 0 80H88v16H56Zm32 32v32h16a16 16 0 0 0 0-32Z" />
+</svg>
