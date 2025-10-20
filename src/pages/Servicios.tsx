@@ -5,7 +5,7 @@ import { BackToTop } from "@/components/ui/BackToTop";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Check } from "lucide-react";
+import { Check, Wrench, Factory, Lock, Home, Zap, Cog } from "lucide-react";
 import { Link } from "react-router-dom";
 import serviceMaintenanceImg from "@/assets/service-maintenance.jpg";
 import serviceRenovationImg from "@/assets/service-renovation.jpg";
@@ -13,39 +13,84 @@ import serviceElectricalImg from "@/assets/service-electrical.jpg";
 
 const services = [
   {
-    title: "Mantenimiento",
-    description: "Servicios preventivos y correctivos para mantener sus instalaciones en óptimas condiciones",
-    image: serviceMaintenanceImg,
-    features: [
-      "Mantenimiento preventivo programado",
-      "Reparaciones de emergencia 24/7",
-      "Inspecciones técnicas periódicas",
-      "Limpieza de sistemas y equipos",
-      "Reporte de estado detallado",
-    ],
-  },
-  {
-    title: "Remodelación",
-    description: "Transformamos espacios con diseños modernos y funcionales",
-    image: serviceRenovationImg,
-    features: [
-      "Diseño y planificación de espacios",
-      "Remodelación integral de interiores",
-      "Actualización de instalaciones",
-      "Pintura y acabados profesionales",
-      "Gestión completa del proyecto",
-    ],
-  },
-  {
-    title: "Instalaciones Eléctricas",
-    description: "Instalaciones eléctricas certificadas y seguras",
+    title: "Mantenimiento Eléctrico y Mecánico Industrial",
+    description: "Inspecciones, mantenimiento y fabricación de tableros eléctricos de media y baja tensión, mantenimiento de equipos industriales",
     image: serviceElectricalImg,
+    icon: Factory,
     features: [
-      "Instalación de sistemas eléctricos",
-      "Actualización de tableros",
-      "Iluminación LED eficiente",
-      "Certificación y normativa vigente",
-      "Mantenimiento eléctrico preventivo",
+      "Mantenimiento de tableros eléctricos de media y baja tensión",
+      "Fabricación e instalación de tableros eléctricos",
+      "Mantenimiento mecánico a vinipeladoras y bandas transportadoras",
+      "Inspección y revisión de equipos eléctricos",
+      "Reparación de sistemas industriales",
+    ],
+  },
+  {
+    title: "Transportadores de Banda",
+    description: "Fabricación, mantenimiento y suministro de componentes para transportadores de banda industriales",
+    image: serviceMaintenanceImg,
+    icon: Cog,
+    features: [
+      "Fabricación de transportadores de banda",
+      "Suministro de rodillos motrices, de cola, de carga, de impacto y retorno",
+      "Estaciones de rodillos y rodillos auto limpiantes",
+      "Suministro e instalación de cajas reductoras",
+      "Cintas transportadoras, piñones, poleas, cadenas y correas",
+      "Mantenimiento preventivo y correctivo",
+    ],
+  },
+  {
+    title: "Servicios de Cerrajería",
+    description: "Instalación, reparación, mantenimiento y suministro de sistemas de seguridad y cerrajería",
+    image: serviceRenovationImg,
+    icon: Lock,
+    features: [
+      "Cerraduras de sobreponer, embutidas y de alta seguridad",
+      "Cerraduras multipunto y de pomo",
+      "Cerrojos de seguridad y cerraduras gorjas",
+      "Cerraduras digitales y electrónicas",
+      "Apertura de emergencia y duplicado de llaves",
+      "Configuración y programación de cerraduras inteligentes",
+    ],
+  },
+  {
+    title: "Reparaciones Locativas",
+    description: "Mantenimiento integral de inmuebles para oficinas, hogares, industrias y colegios",
+    image: serviceRenovationImg,
+    icon: Home,
+    features: [
+      "Instalación de pisos, drywall, enchapes y cerámicos",
+      "Servicios de plomería: instalación, destape, detección de fugas",
+      "Acabados: pintura, enchapes, pisos laminados",
+      "Impermeabilización de terrazas, cubiertas y jardines",
+      "Reparación y cambio de tejas",
+    ],
+  },
+  {
+    title: "Electricidad Residencial",
+    description: "Instalaciones, mantenimiento y reparaciones eléctricas para el hogar",
+    image: serviceElectricalImg,
+    icon: Zap,
+    features: [
+      "Instalación y reconexión de tableros eléctricos",
+      "Cableado e instalación de interruptores, tomas y lámparas",
+      "Reubicación de puntos eléctricos y puesta a tierra",
+      "Reparación de cortos, breakers, poste a casa y acometidas",
+      "Instalación de duchas eléctricas e iluminación LED",
+      "Cableado eléctrico residencial completo",
+    ],
+  },
+  {
+    title: "Suministro de Resortes",
+    description: "Fabricación y suministro de resortes mecánicos según especificaciones del cliente",
+    image: serviceMaintenanceImg,
+    icon: Wrench,
+    features: [
+      "Resortes fabricados según medidas del cliente",
+      "Componentes con alta elasticidad",
+      "Absorción de deformaciones considerables",
+      "Recuperación de forma inicial",
+      "Aplicaciones industriales y mecánicas",
     ],
   },
 ];
@@ -99,11 +144,16 @@ const Servicios = () => {
       <section className="pt-32 pb-16 gradient-hero">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: "Servicios" }]} />
-          <div className="max-w-3xl animate-fade-in-up">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Nuestros Servicios</h1>
-            <p className="text-xl text-muted-foreground">
-              Soluciones integrales de mantenimiento, remodelación e instalaciones eléctricas para
-              empresas y hogares. Calidad garantizada y profesionales certificados.
+          <div className="max-w-4xl animate-fade-in-up">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Servicios Kolbing Ingeniería SAS</h1>
+            <p className="text-xl text-muted-foreground mb-4">
+              Mantenimiento eléctrico y mecánico en la industria y el hogar, fabricación de transportadores 
+              de banda, cerrajería, y servicios locativos para oficinas, hogar y negocios.
+            </p>
+            <p className="text-lg text-muted-foreground">
+              Prestamos servicios especializados de mantenimiento eléctrico a la industria y el hogar, 
+              incluyendo tableros de media y baja tensión, instalaciones completas, y fabricación de 
+              equipos industriales con garantía de calidad y profesionales certificados.
             </p>
           </div>
         </div>
@@ -112,33 +162,45 @@ const Servicios = () => {
       {/* Services Grid */}
       <section className="py-20 bg-ink-2">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Nuestros Servicios Especializados</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Soluciones completas para la industria y el hogar con más de 20 años de experiencia
+            </p>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <Card key={index} className="overflow-hidden animate-fade-in hover:shadow-lg transition-shadow">
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                    loading="lazy"
-                  />
-                </div>
-                <CardHeader>
-                  <CardTitle>{service.title}</CardTitle>
-                  <CardDescription>{service.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start space-x-2">
-                        <Check className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
-                        <span className="text-sm text-muted-foreground">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            ))}
+            {services.map((service, index) => {
+              const IconComponent = service.icon;
+              return (
+                <Card key={index} className="overflow-hidden animate-fade-in hover:shadow-lg transition-shadow">
+                  <div className="aspect-video overflow-hidden relative">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                      loading="lazy"
+                    />
+                    <div className="absolute top-4 right-4 bg-background/90 backdrop-blur-sm p-3 rounded-full">
+                      <IconComponent className="w-6 h-6 text-primary" />
+                    </div>
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-xl">{service.title}</CardTitle>
+                    <CardDescription>{service.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-2">
+                      {service.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-start space-x-2">
+                          <Check className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                          <span className="text-sm text-muted-foreground">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
